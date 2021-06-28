@@ -3,38 +3,75 @@ body {
     justify-content: center;
     text-align: center;
     margin-top: 50px;
-    background-color: #ffffff;
-    color: #000000;
-    font-family: 'Open Sans', sans-serif;
+    /* background-image: linear-gradient(to bottom right,#fce3a5, #ffd979); */
+    background-color: #ffd979;
+    color: #023047;
+    font-family: 'Krub', sans-serif;
   }
   
 h1 {
   font-family: 'Amatic SC', cursive;
   font-size: 60px;
+  text-shadow: 1.5px 1.5px #a3afb4;
 }
 
 #formWrapper {
     display: flex;
+    justify-content: center; 
     align-items: center;
-    justify-content: center;
-    margin-top: 24px;
+    margin: 30px 50px;
   }
 
 #prevGuesses {
     margin-top: 15px;
-    font-size: 15px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 3px;
+    color:#023047
   }
 
 #resetButton {
-    margin-top: 24px;
+    margin: 10px 10px 30px 10px;
 }
 
+
+input{
+  height: 55px;
+  border-radius: 20px;
+  text-align: center;
+  color: #023047;
+  border-color: #0e2b3a;
+  border-width: 0px;
+}
+
+button {
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  padding: 6px;
+  border-radius: 20px;
+  background-color: #023047;
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+  border-width: 0px;
+}
+button:hover {
+  background-color: #fb8500
+}
+button:active {
+  background-color: #fb8500;
+  transform: translateY(3px);
+}
+
+
 .high {
-    color: #ffb04b;
+    color: #fb8500;
   }
   
   .low {
-    color:#00a7f7;
+    color:#219ebc;
   }
   
   .winner {
